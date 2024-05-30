@@ -1,0 +1,423 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+/* Nav */
+.navbar {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    background-color:#9f3647;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: white;
+}
+
+.btn {
+    border: 0.1rem black solid;
+    color: black;
+}
+
+.btn:hover {
+    border: 0.1rem white solid;
+    color: white;
+}
+
+.cabecera {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    background-color: #000000;
+}
+
+.slide {
+    margin: 1rem;
+}
+
+.slide img {
+    min-height: 15rem;
+    height: 70vh;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.6;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.textoMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.img {
+    width: 10rem;
+    height: 15rem;
+    object-fit: cover;
+    border: 4px double white;
+}
+
+.img:hover {
+    transform: scale(1.1);
+}
+
+section {
+    margin: 40px;
+    background-color: #00000013
+}
+
+h1 {
+    color: white;
+    opacity: 0.6;
+    margin: 3rem 0rem;
+    width: 90%;
+}
+
+h2 {
+    color: white;
+    opacity: 0.6;
+}
+
+h3 {
+    color: white;
+    font-family: Sans, Helvetica  sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    opacity: 0.8;
+    margin-bottom: 1.5rem;
+}
+
+h3:hover{
+  color: #9f3647;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.botton {
+    text-align: center;
+    margin: 20px;
+    border-bottom: #000000;
+}
+
+.footer {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 8vh;
+    min-height: 4rem;
+    color: white;
+    padding: 0rem 3rem;
+    background-color: #9f3647;
+}
+
+.footer > p {
+    margin: 0;
+}
+
+.iconosFooter{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+.bi:hover {
+    transform: scale(1.2);
+}
+
+/* formulario */
+.seccion{
+    display:flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
+}* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+/* Nav */
+.navbar {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    background-color:#9f3647;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: white;
+}
+
+.btn {
+    border: 0.1rem black solid;
+    color: black;
+}
+
+.btn:hover {
+    border: 0.1rem white solid;
+    color: white;
+}
+
+.cabecera {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    background-color: #000000;
+}
+
+.slide {
+    margin: 1rem;
+}
+
+.slide img {
+    min-height: 15rem;
+    height: 70vh;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.6;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.textoMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.img {
+    width: 10rem;
+    height: 15rem;
+    object-fit: cover;
+    border: 4px double white;
+}
+
+.img:hover {
+    transform: scale(1.1);
+}
+
+section {
+    margin: 40px;
+    background-color: #00000013
+}
+
+h1 {
+    color: white;
+    opacity: 0.6;
+    margin: 3rem 0rem;
+    width: 90%;
+}
+
+h2 {
+    color: white;
+    opacity: 0.6;
+}
+
+h3 {
+    color: white;
+    font-family: Sans, Helvetica  sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    opacity: 0.8;
+    margin-bottom: 1.5rem;
+}
+
+h3:hover{
+  color: #9f3647;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.botton {
+    text-align: center;
+    margin: 20px;
+    border-bottom: #000000;
+}
+
+.footer {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 8vh;
+    min-height: 4rem;
+    color: white;
+    padding: 0rem 3rem;
+    background-color: #9f3647;
+}
+
+.footer > p {
+    margin: 0;
+}
+
+.iconosFooter{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+.bi:hover {
+    transform: scale(1.2);
+}
+
+/* formulario */
+:root{
+    --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+    --transition: all 0.1s cubic-bezier(0.645, 0.045, 0.355, 1)
+}
+
+/* volver  */
+.volver{padding: 1rem;
+color: #9f3647;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.seccion{
+    background-image: url(../img/fondo\ de\ imagen.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display:flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.seccion h5{
+    font-size: 3rem;
+}
+
+.seccion h5{
+    text-align:center;
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 2rem
+}
+
+.seccion form{
+    padding: 1.5em;
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    border-radius: 20px;
+    border: 2px solid rgba(0,0,0,.1);
+}
+
+.seccion form label{
+    width: 100%;
+    padding: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+.seccion  form input{
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.8em;
+    border-radius: 9px;
+    border: none;
+    outline-color: #003DFF;
+    background-color: #eee;
+}
+
+.seccion form input[type='submit']{
+    margin-top: 1.5em;
+    background-color: #003DFF;
+    color: #fff;
+    font-family: var(--font-mono);
+    transition: var(--transition);
+} 
+
+.seccion  form input[type='submit']:active{
+    transform: scale(0.97);
+}
+
+.seccion p{
+    margin-top: 1.5em;
+
+}
+
+
+.seccion p a{
+    text-decoration: none;
+    color: #003DFF;
+}
+
+
+/* Home */
+
+.seccion  button{
+    background-color: #003DFF;
+    color: #fff;
+    font-family: var(--font-mono);
+    transition: var(--transition);
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 9px;
+    margin-top: 1.5em;
+    font-size: 1em;
+}
+
+.registrate{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 2rem;
+}
