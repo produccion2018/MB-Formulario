@@ -12,6 +12,7 @@
     font-weight: bold;
     color: black;
     background-color:#9f3647;
+
 }
 
 .navbar-brand{
@@ -115,6 +116,15 @@ section{
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
+}
+
+@media screen and (max-width: 800px){
+.contenedorImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}   
 }
 
 .botton {
