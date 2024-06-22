@@ -453,3 +453,21 @@ font-family: Arial, Helvetica, sans-serif;
     
  }  
     
+
+ @media screen  and (max-width:480px){
+    .slide {
+        margin: 1rem;
+ } 
+    
+    }
+@media screen  and (max-width:480px) {
+        .slide img {
+            min-height: 9rem;
+            height: 50vh;
+            object-fit: cover;
+            object-position: center;
+            opacity: 0.6;
+    }
+    
+    }
+        
