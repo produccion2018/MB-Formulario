@@ -118,11 +118,10 @@ section{
     gap: 2rem;
 }
 
-@media screen and (max-width: 800px){
-.contenedorImg {
+@media screen and (max-width: 480px){
+main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 2rem;
 }   
 }
