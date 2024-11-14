@@ -5,11 +5,18 @@ if(!user){
 
 const logout = document.querySelector('#logout')
 
-logout.addEventListener('click', ()=>{
-    alert('Hasta pronto!')
-    localStorage.removeItem('login_success')
-    window.location.href = 'login.html'
+logout.addEventListener('click', () => {
+  Swal.fire({
+      icon: 'info',
+      title: 'Hasta pronto!',
+      text: 'Has cerrado sesión correctamente.',
+      confirmButtonText: 'OK'
+  }).then(() => {
+      localStorage.removeItem('login_success')
+      window.location.href = 'login.html'
+  })
 })
+
 
 //buscar peliculas
 

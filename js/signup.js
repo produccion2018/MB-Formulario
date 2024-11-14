@@ -23,7 +23,8 @@ signupForm.addEventListener('submit', (e) => {
     Swal.fire({
         icon: 'success',
         title: 'Registro Exitoso!',
-        text: 'Te has registrado correctamente.'
+        text: 'Te has registrado correctamente.',
+        confirmButtonText: 'Continuar'
     }).then(() => {
         window.location.href = 'login.html'
     })
