@@ -24,8 +24,8 @@
 }
 
 .btn {
-    border: 0.1rem black solid;
-    color: black;
+    border: 0.1rem #000000 solid;
+    color: #000000;
 }
 
 .btn:hover {
@@ -73,8 +73,6 @@ main {
 }
 
 
-
-
 .img:hover {
     transform: scale(1.1);
 }
@@ -85,19 +83,19 @@ section {
 }
 
 h1 {
-    color: white;
+    color: #ffffff;
     opacity: 0.6;
     margin: 3rem 0rem;
     width: 90%;
 }
 
 h2 {
-    color: white;
+    color: #ffffff;
     opacity: 0.6;
 }
 
 h3 {
-    color: white;
+    color: #ffffff;
     font-family: Sans, Helvetica  sans-serif;
     font-size: 2rem;
     font-weight: 300;
@@ -185,17 +183,17 @@ section{
 }
 
 .nav-link {
-    color: white;
+    color: #ffffff;
 }
 
 .btn {
-    border: 0.1rem black solid;
-    color: black;
+    border: 0.1rem #000000 solid;
+    color: #000000;
 }
 
 .btn:hover {
-    border: 0.1rem white solid;
-    color: white;
+    border: 0.1rem #ffffff solid;
+    color: #ffffff;
 }
 
 .cabecera {
@@ -233,7 +231,7 @@ main {
     width: 10rem;
     height: 15rem;
     object-fit: cover;
-    border: 4px double white;
+    border: 4px double #ffffff;
 }
 
 @media screen  and (max-width:480px) {
@@ -241,7 +239,7 @@ main {
         width: 5rem;
         height: 8rem;
         object-fit: cover;
-        border: 4px double white;
+        border: 4px double #ffffff;
     }
 }
 
@@ -255,19 +253,19 @@ section {
 }
 
 h1 {
-    color: white;
+    color: #ffffff;
     opacity: 0.6;
     margin: 3rem 0rem;
     width: 90%;
 }
 
 h2 {
-    color: white;
+    color: #ffffff;
     opacity: 0.6;
 }
 
 h3 {
-    color: white;
+    color: #ffffff;
     font-family: Sans, Helvetica  sans-serif;
     font-size: 2rem;
     font-weight: 300;
@@ -292,10 +290,6 @@ section{
     gap: 2rem;
 }
 
-
-   
-
-
 .botton {
     text-align: center;
     margin: 20px;
@@ -308,7 +302,7 @@ section{
     align-items: center;
     height: 8vh;
     min-height: 4rem;
-    color: white;
+    color: #ffffff;
     padding: 0rem 3rem;
     background-color: #9f3647;
 }
@@ -379,7 +373,7 @@ font-family: Arial, Helvetica, sans-serif;
     flex-wrap: wrap;
     max-width: 500px;
     border-radius: 20px;
-    border: 2px solid rgba(0,0,0,.1);
+    border: 2px solid #0000001a;
 }
 
 .seccion form label{
